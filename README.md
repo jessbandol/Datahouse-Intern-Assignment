@@ -5,8 +5,6 @@ This application calculates the compatibility score of applicants with a team ba
 The input and output of the application are in JSON format. See the input_data.json file for input format.
 
 ## Create & Run the Application
-To run the application:
-
 1. Make sure you have Javascript and Node installed.
 2. Create a repository to hold all the incoming files.
 3. Navigate to the directory and create 2 files ([compatibilityscore.js](https://github.com/jessbandol/Datahouse-Intern-Assignment/blob/main/compatibilityscore.js) and [inputdata.json](https://github.com/jessbandol/Datahouse-Intern-Assignment/blob/main/inputdata.json))
