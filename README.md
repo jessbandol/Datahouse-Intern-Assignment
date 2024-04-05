@@ -7,11 +7,11 @@ The input and output of the application are in JSON format. See the input_data.j
 ## Create & Run the Application
 To run the application:
 
-1. Make sure you have Python installed.
+1. Make sure you have Javascript and Node installed.
 2. Create a repository to hold all the incoming files.
-3. Navigate to the directory and create 2 files (compatibilityscore.py and inputdata.json)
+3. Navigate to the directory and create 2 files (compatibilityscore.js and inputdata.json)
 4. In inputdata.json, copy & paste the given applicants, team members, and their respective attributes.
-5. In compatibilityscore.py, import the json file and the math function (import inputdata.json, import math)
+5. In compatibilityscore.js, import the json file and the math function (import inputdata.json, import math)
 6. Add the required algothrim the clauclate the compatibility
 7. Create lines of code to do the following: how far appart one's attibutes are to one another, how to calculate the compatibility score for an applicant, how to score all applicants against the team, score all applicants against the team, and to print out the result in JSON
 9. Run the following command: python3 compatibilityscore.py.
@@ -19,13 +19,19 @@ To run the application:
 
 # Algorithm Explanation
 
-## def calculate_distance(applicant, team_member):
+## const fs = require('fs');
++ Imports the fs module, which allows us to read and write files in Node.js. In simpler terms, it allows Javascript to access and process the content in inputdata.json file.
 
-## def calculate_score(applicant, team):
+## function readInputData(filePath)
 
-## def score_applicants(team, applicants):
 
-## def main():
+## function calculateDistance(applicant, teamMember)
+
+## function calculateScore(applicant, team)
+
+## function scoreApplicants(team, applicants)
+
+## function main()
 + Setting Up Data: It defines the attributes and characteristics of both the team members and the applicants
 + Scoring Applicants: It calculates how well each applicant matches the attributes of the team members. This involves comparing the attributes of each applicant with those of the team members to determine compatibility.
 + Formatting Output: It organizes the compatibility scores for each applicant into a structured format, making it easy to read and understand.
