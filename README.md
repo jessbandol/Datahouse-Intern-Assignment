@@ -11,7 +11,7 @@ The input and output of the application are in JSON format. See the [inputdata.j
 4. In inputdata.json, copy & paste the given applicants, team members, and their respective attributes.
 5. In compatibilityscore.js, import the json file and fs module (const fs = require('fs'); & const inputData = readInputData('inputdata.json');)
 6. Add the required algothrim the clauclate the compatibility
-7. Create lines of code to do the following: how far appart one's attibutes are to one another, how to calculate the compatibility score for an applicant, how to score all applicants against the team, score all applicants against the team, and to print out the result in JSON
+7. Create lines of code to do the following: how far appart one's attibutes are to one another, how to calculate the compatibility score for an applicant, how to score all applicants against the team, execute all the functions, and to print out the result in JSON
 9. Run the following command: node compatibilityscore.js
 10. The output will be displayed in the terminal.
 
