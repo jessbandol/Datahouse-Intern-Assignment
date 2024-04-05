@@ -2,7 +2,7 @@
 This application calculates the compatibility score of applicants with a team based on the given attributes.
 
 ## Input and Output
-The input and output of the application are in JSON format. See the input_data.json file for input format.
+The input and output of the application are in JSON format. See the [inputdata.json](https://github.com/jessbandol/Datahouse-Intern-Assignment/blob/main/inputdata.json) file for input format.
 
 ## Create & Run the Application
 1. Make sure you have Javascript and Node installed.
