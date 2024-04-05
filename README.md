@@ -9,7 +9,7 @@ To run the application:
 
 1. Make sure you have Javascript and Node installed.
 2. Create a repository to hold all the incoming files.
-3. Navigate to the directory and create 2 files (compatibilityscore.js and inputdata.json)
+3. Navigate to the directory and create 2 files ([compatibilityscore.js](https://github.com/jessbandol/Datahouse-Intern-Assignment/blob/main/compatibilityscore.js) and inputdata.json)
 4. In inputdata.json, copy & paste the given applicants, team members, and their respective attributes.
 5. In compatibilityscore.js, import the json file and the math function (import inputdata.json, import math)
 6. Add the required algothrim the clauclate the compatibility
