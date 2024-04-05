@@ -27,9 +27,13 @@ To run the application:
 + Javascript now starts accessing and processing the content in inputdata.json file.
 
 ## function calculateDistance(applicant, teamMember)
-+  This function computes the Euclidean distance between the attributes of an applicant and a team member.
-++  Euclidean measure is used because there are multiple attributes to consider rather than 2——x & y varibles. Due to this, we need to approach the situation in a 3D or multidimensional manner.
-+  
++ This function computes the Euclidean distance between the attributes of an applicant and a team member.
+    + Euclidean measure is used because there are multiple attributes to consider rather than 2——x & y varibles. Due to this, we need to approach the situation in a 3D or multidimensional manner.
++  We first need to address our parameters: applicant and teamMember
++  Then, we create an array that contains the names of the attributes to consider when calculating the distance: "intelligence", "strength", "endurance", "spicyFoodTolerance"
++  We calculate the distance between the attributes of the applicant and teamMember by looping through each attribute (like intelligence, strength, etc.) they have in common.
++  For each attribute, we find the difference between the attribute values of the applicant and teamMember.
++ 
 
 ## function calculateScore(applicant, team)
 
