@@ -59,7 +59,10 @@ To run the application:
 ## function main()
 + "main" starts the process of reading input data, scoring applicants, and producing output.
 + readInputData function to read input data from the inputdata.json file.
-+ 
++ Call the scoreApplicants function to calculate compatibility scores for each applicant based on the input data.
++ Create an output object containing the scoredApplicants array, which holds the compatibility scores for each applicant.
++ Use JSON.stringify() to convert the output object to a JSON string.
++ main(); triggers the entire "main" function.
 
 # Results
 {
