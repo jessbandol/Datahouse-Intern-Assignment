@@ -1,11 +1,12 @@
+// Import the built-in Node.js module fs
 const fs = require('fs');
 
-// Function to read input data from a JSON file
+// Read input data from a JSON file
 function readInputData(filePath) {
     return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 }
 
-// Function to calculate Euclidean distance between attributes of two objects
+// Calculate distance between attributes of team members and applicants
 function calculateDistance(applicant, teamMember) {
     const attributes = ["intelligence", "strength", "endurance", "spicyFoodTolerance"];
     let totalDistance = 0;
@@ -15,7 +16,7 @@ function calculateDistance(applicant, teamMember) {
     return Math.sqrt(totalDistance);
 }
 
-// Function to calculate compatibility score for an applicant
+// Calculate compatibility score of the applicants
 function calculateScore(applicant, team) {
     let minDistance = Infinity;
     for (let teamMember of team) {
@@ -26,7 +27,7 @@ function calculateScore(applicant, team) {
     return 1 - (minDistance / maxDistance);
 }
 
-// Function to score all applicants against the team
+// Score all applicants against the team
 function scoreApplicants(team, applicants) {
     const scoredApplicants = [];
     for (let applicant of applicants) {
