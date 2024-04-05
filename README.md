@@ -11,21 +11,25 @@ To run the application:
 2. Create a repository to hold all the incoming files.
 3. Navigate to the directory and create 2 files ([compatibilityscore.js](https://github.com/jessbandol/Datahouse-Intern-Assignment/blob/main/compatibilityscore.js) and [inputdata.json](https://github.com/jessbandol/Datahouse-Intern-Assignment/blob/main/inputdata.json))
 4. In inputdata.json, copy & paste the given applicants, team members, and their respective attributes.
-5. In compatibilityscore.js, import the json file and the math function (import inputdata.json, import math)
+5. In compatibilityscore.js, import the json file and fs module (const fs = require('fs'); & const inputData = readInputData('inputdata.json');)
 6. Add the required algothrim the clauclate the compatibility
 7. Create lines of code to do the following: how far appart one's attibutes are to one another, how to calculate the compatibility score for an applicant, how to score all applicants against the team, score all applicants against the team, and to print out the result in JSON
-9. Run the following command: python3 compatibilityscore.py.
+9. Run the following command: node compatibilityscore.js
 10. The output will be displayed in the terminal.
 
 # Algorithm Explanation
 
 ## const fs = require('fs');
-+ Imports the fs module, which allows us to read and write files in Node.js. In simpler terms, it allows Javascript to access and process the content in inputdata.json file.
++ Imports the fs module and assigns it to the variable fs. This module allows Javascript to use its functions within the code (i.e. read and write files in Node.js)
 
 ## function readInputData(filePath)
-
++ This function serves as the algorithim used to read the inputdata.json file using the fs module.
++ Javascript now starts accessing and processing the content in inputdata.json file.
 
 ## function calculateDistance(applicant, teamMember)
++  This function computes the Euclidean distance between the attributes of an applicant and a team member.
+++  Euclidean measure is used because there are multiple attributes to consider rather than 2——x & y varibles. Due to this, we need to approach the situation in a 3D or multidimensional manner.
++  
 
 ## function calculateScore(applicant, team)
 
