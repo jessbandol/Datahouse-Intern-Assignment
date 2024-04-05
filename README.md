@@ -35,7 +35,7 @@ The input and output of the application are in JSON format. See the [inputdata.j
 + Finally, we add up how much each attribute differs between the applicant and teamMember, then find the square root of that sum to get a single number that tells us how different they are overall.
 
 ## function calculateScore(applicant, team)
-+ We start by initializing `minDistance` to Infinity.
++ We start by setting the value of `minDistance` to Infinity.
     + This variable tracks the smallest distance found between the applicant and any team member.
 + Next, we loop through each `teamMember` in the `team` array.
     + For each `teamMember`, we calculate the distance between the applicant and the team member using the `calculateDistance` function.
